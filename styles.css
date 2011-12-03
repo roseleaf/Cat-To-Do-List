@@ -1,0 +1,102 @@
+h1{
+    font-family: "Bookman", serif;
+    font-style: italic;
+    font-weight: 100;
+    margin:10px 0px;
+}
+
+#main-title{
+    font-size: 60px;
+}
+
+.main {
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+.sub{
+    font-size:30px;
+    margin-top:0pc;
+}
+#to-do, #add-to-do{
+    float: left;
+}
+
+#input{
+    background:#eeeeee;
+    padding: 10px;
+}
+
+#add-to-do{
+    background: url(catface.png) no-repeat;
+    width: 60px;
+    height: 45px;
+    margin-top:-15px;
+    cursor:pointer;
+    border:none;
+}
+
+.to-do{
+    width: 500px;
+    padding: 4px;
+    border:;
+}
+
+.checkbox{
+    background: url(heads.png) no-repeat;
+    width: 40px;
+    height: 36px;
+    cursor:pointer;
+}
+
+.to-do.checked .checkbox {
+    background-position: 0px -37px;    
+}
+
+.title{
+    margin-top: 9px;
+    max-width: 385px;
+}
+
+.editline{
+    width: 385px;
+    margin-top: 9px;
+    float: left;
+}
+
+.removerbutton{
+    height: 24px;
+    width: 44px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background: url(fish.png);
+    cursor:pointer;
+    border:none;
+    float: right;
+}
+
+.to-do.checked .title {
+    background: url(scratched.png) repeat-x;
+}
+
+.title, .checkbox{
+    float: left;
+    margin-right:10px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}

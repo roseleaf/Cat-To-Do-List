@@ -1,0 +1,43 @@
+<div class= "clearfix">
+    <div class="float"></div>
+    <div class="float"></div>
+    <div class="float"></div>
+</div>
+<div class= "clearfix">
+    <div class="float"></div>
+    <div class="float"></div>
+    <div class="float"></div>
+</div>
+<style type="text/css">
+    div{
+        padding:10px;
+        padding-left:20px;
+        padding-top:20px;
+        background:red;
+        margin-bottom: 10px;
+    }
+    .float{
+        width: 100px;
+        height:100px;
+        background: blue;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+    
+    html[xmlns] .clearfix {
+        display: block;
+    }
+     
+    * html .clearfix {
+        height: 1%;
+    }
+</style>
