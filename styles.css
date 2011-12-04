@@ -39,7 +39,9 @@ h1{
 .to-do{
     width: 500px;
     padding: 4px;
-    border:;
+    border-bottom-style: groove;
+    border-bottom-width: 1px;
+    border-bottom-color: #eeeeee;
 }
 
 .checkbox{
